@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>Ben's Cheat Sheet</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Thanks W3 Schools for the fontawesome CDN link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 
@@ -27,7 +26,7 @@
                 <em class="fa fa-caret-down"></em>
             </button>
             <div class="dropdown-content">
-                <a href="#">Openers</a>
+                <a href="#openers">Openers</a>
                 <a href="#">Copy</a>
                 <a href="#">Tables</a>
                 <a href="#">Media</a>
@@ -48,6 +47,58 @@
             </div>
         </div>
     </nav>
+    <section id="html-section">
+        <h1 id="openers">Openers</h1>
+        <p id="opener-desc">Talk about openers that are listed in this table</p>
+        <div class="table">
+            <!-- Fix the spacing 'color' between grid cells with this SO link: 
+            https://stackoverflow.com/questions/39828017/how-to-fill-color-in-border-spacing-between-cells-in-html-using-css-->
+            <table aria-describedby="opener-desc" id="opener-table" class="table">
+                <thead class="header-row">
+                    <tr>
+                        <th class="table-header tag-cell">Tag</th>
+                        <th class="table-header description-cell">Description</th>
+                        <th class="table-header example-cell">Examples</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-body">
+                        <td class="tag-cell">&lt;!DOCTYPE&gt;</td>
+                        <td class="description-cell">Technically, this is not an HTML tag, but it is required to inform the
+                            browser about what document
+                            type to expect</td>
+                        <td class="example-cell">&lt;!DOCTYPE html&gt;</td>
+                    </tr>
+                    <tr>
+                        <td class="tag-cell">&lt;html&gt;</td>
+                        <td class="description-cell"></td>
+                        <td class="example-cell"></td>
+                    </tr>
+                    <tr>
+                        <td class="tag-cell">&lt;head&gt;</td>
+                        <td class="description-cell"></td>
+                        <td class="example-cell"></td>
+                    </tr>
+                    <tr>
+                        <td class="tag-cell">&lt;meta&gt;</td>
+                        <td class="description-cell"></td>
+                        <td class="example-cell"></td>
+                    </tr>
+                    <tr>
+                        <td class="tag-cell">&lt;title&gt;</td>
+                        <td class="description-cell"></td>
+                        <td class="example-cell"></td>
+                    </tr>
+                    <tr>
+                        <td class="tag-cell">&lt;link&gt;</td>
+                        <td class="description-cell"></td>
+                        <td class="example-cell"></td>
+                    </tr>
+                </tbody>
+        </div>
+
+        </table>
+    </section>
 
     <script src="" async defer></script>
 </body>
